@@ -1,0 +1,546 @@
+{
+  "log": {
+    "disabled": false,
+    "level": "fatal",
+    "output": "",
+    "timestamp": false
+  },
+  "experimental": {
+    "clash_api": {
+      "external_controller": "127.0.0.1:20123",
+      "external_ui": "",
+      "external_ui_download_url": "",
+      "secret": "87436b2acaa06f04b50f0081c05ce081987f3b7ad468bf53d197a188b38b37d7",
+      "default_mode": "rule",
+      "access_control_allow_origin": [
+        "*"
+      ],
+      "access_control_allow_private_network": false
+    },
+    "cache_file": {
+      "enabled": true,
+      "path": "cache.db",
+      "cache_id": "",
+      "store_fakeip": true,
+      "store_rdrc": true,
+      "rdrc_timeout": "7d"
+    }
+  },
+  "inbounds": [
+    {
+      "type": "mixed",
+      "tag": "mixed-in",
+      "listen": "127.0.0.1",
+      "listen_port": 20122,
+      "tcp_fast_open": false,
+      "tcp_multi_path": false,
+      "udp_fragment": false
+    },
+    {
+      "type": "tun",
+      "tag": "tun-in",
+      "interface_name": "",
+      "address": [
+        "172.18.0.1/30",
+        "fdfe:dcba:9876::1/126"
+      ],
+      "mtu": 9000,
+      "auto_route": true,
+      "strict_route": true,
+      "endpoint_independent_nat": false,
+      "stack": "mixed"
+    }
+  ],
+        "outbounds": [
+    {
+      "outbounds": [
+        "🎈 خودکار",
+        "🇿🇦South Africa",
+        "🇺🇸US(Florida)",
+        "🇳🇱Netherlands",
+        "🇬🇧United Kingdom",
+        "🇩🇪Germany",
+        "🇮🇹Italy",
+        "🇧🇪Belgium",
+        "🇹🇷Turkey",
+        "🇦🇪UAE",
+        "🇫🇮Finland",
+        "🇫🇮Finland2",
+        "🇭🇰Hong Kong",
+        "🇦🇹Austria",
+        "🇮🇹Italy2",
+        "🇸🇰Slovakia",
+        "🇸🇰Slovakia2",
+        "🇨🇭Switzerland",
+        "🇨🇭Switzerland2",
+        "🇺🇸US(Phoenix)",
+        "🇺🇸US(Phoenix2)",
+        "🇺🇸US(Phoenix3)",
+        "🇸🇬Singapore",
+        "🇸🇬Singapore2",
+        "🇸🇬Singapore3",
+        "🇧🇪Belgium2",
+        "🇧🇪Belgium3",
+        "🇧🇪Belgium4"
+
+      ],
+      "tag": "🚀 انتخاب کنید",
+      "type": "selector"
+    },
+    {
+      "interval": "10m",
+      "outbounds": [
+        "🇿🇦South Africa",
+        "🇺🇸US(Florida)",
+        "🇳🇱Netherlands",
+        "🇬🇧United Kingdom",
+        "🇩🇪Germany",
+        "🇮🇹Italy",
+        "🇧🇪Belgium",
+        "🇹🇷Turkey",
+        "🇦🇪UAE",
+        "🇫🇮Finland",
+        "🇫🇮Finland2",
+        "🇭🇰Hong Kong",
+        "🇦🇹Austria",
+        "🇮🇹Italy2",
+        "🇸🇰Slovakia",
+        "🇸🇰Slovakia2",
+        "🇨🇭Switzerland",
+        "🇨🇭Switzerland2",
+        "🇺🇸US(Phoenix)",
+        "🇺🇸US(Phoenix2)",
+        "🇺🇸US(Phoenix3)",
+        "🇸🇬Singapore",
+        "🇸🇬Singapore2",
+        "🇸🇬Singapore3",
+        "🇧🇪Belgium2",
+        "🇧🇪Belgium3",
+        "🇧🇪Belgium4"
+      
+      ],
+      "tag": "🎈 خودکار",
+      "tolerance": 50,
+      "type": "urltest",
+      "url": "http://www.gstatic.com/generate_204"
+    },
+    
+    {
+  "type": "ssh",
+  "tag": "🇿🇦South Africa",
+  "server": "139.84.230.109",
+  "server_port": 2122,
+  "user": "telegram_iranramona",
+  "password": "BBB23A5D-44F1-2AF1-83A0-B65222D16BCA",
+  "client_version": "SSH-2.0-OpenSSH_9.9p1"
+
+  
+},
+
+       
+{
+  "type": "ssh",
+  "tag": "🇺🇸US(Florida)",
+  "server": "146.70.51.58",
+  "server_port": 2122,
+  "user": "telegram_iranramona",
+  "password": "BBB23A5D-44F1-2AF1-83A0-B65222D16BCA",
+  "client_version": "SSH-2.0-OpenSSH_9.9p1"
+
+  
+},
+
+{
+  "type": "ssh",
+  "tag": "🇳🇱Netherlands",
+  "server": "146.70.169.230",
+  "server_port": 22,
+  "user": "telegram_iranramona",
+  "password": "BBB23A5D-44F1-2AF1-83A0-B65222D16BCA",
+  "client_version": "SSH-2.0-OpenSSH_9.9p1"
+
+  
+},
+
+{
+  "type": "ssh",
+  "tag": "🇬🇧United Kingdom",
+  "server": "146.70.181.70",
+  "server_port": 2122,
+  "user": "telegram_iranramona",
+  "password": "BBB23A5D-44F1-2AF1-83A0-B65222D16BCA",
+  "client_version": "SSH-2.0-OpenSSH_9.9p1"
+
+  
+},
+{
+  "type": "ssh",
+  "tag": "🇩🇪Germany",
+  "server": "146.70.36.102",
+  "server_port": 22,
+  "user": "telegram_iranramona",
+  "password": "BBB23A5D-44F1-2AF1-83A0-B65222D16BCA",
+  "client_version": "SSH-2.0-OpenSSH_9.9p1"
+
+  
+},
+ {
+  "type": "ssh",
+  "tag": "🇮🇹Italy",
+  "server": "146.70.182.190",
+  "server_port": 22,
+  "user": "telegram_iranramona",
+  "password": "BBB23A5D-44F1-2AF1-83A0-B65222D16BCA",
+  "client_version": "SSH-2.0-OpenSSH_9.9p1"
+
+  
+},
+{
+  "type": "ssh",
+  "tag": "🇧🇪Belgium",
+  "server": "185.210.217.187",
+  "server_port": 22,
+  "user": "telegram_iranramona",
+  "password": "BBB23A5D-44F1-2AF1-83A0-B65222D16BCA",
+  "client_version": "SSH-2.0-OpenSSH_9.9p1"
+
+  
+},
+{
+  "type": "ssh",
+  "tag": "🇹🇷Turkey",
+  "server": "217.138.202.226",
+  "server_port": 22,
+  "user": "telegram_iranramona",
+  "password": "BBB23A5D-44F1-2AF1-83A0-B65222D16BCA",
+  "client_version": "SSH-2.0-OpenSSH_9.9p1"
+
+  
+},
+{
+  "type": "ssh",
+  "tag": "🇦🇪UAE",
+  "server": "45.9.249.189",
+  "server_port": 22,
+  "user": "telegram_iranramona",
+  "password": "BBB23A5D-44F1-2AF1-83A0-B65222D16BCA",
+  "client_version": "SSH-2.0-OpenSSH_9.9p1"
+
+  
+},
+{
+  "type": "ssh",
+  "tag": "🇫🇮Finland",
+  "server": "185.227.68.106",
+  "server_port": 22,
+  "user": "telegram_iranramona",
+  "password": "BBB23A5D-44F1-2AF1-83A0-B65222D16BCA",
+  "client_version": "SSH-2.0-OpenSSH_9.9p1"
+
+  
+},
+{
+  "type": "ssh",
+  "tag": "🇫🇮Finland2",
+  "server": "185.90.60.242",
+  "server_port": 22,
+  "user": "telegram_iranramona",
+  "password": "BBB23A5D-44F1-2AF1-83A0-B65222D16BCA",
+  "client_version": "SSH-2.0-OpenSSH_9.9p1"
+
+  
+},
+    
+{
+  "type": "ssh",
+  "tag": "🇭🇰Hong Kong",
+  "server": "89.45.6.42",
+  "server_port": 22,
+  "user": "telegram_iranramona",
+  "password": "BBB23A5D-44F1-2AF1-83A0-B65222D16BCA",
+  "client_version": "SSH-2.0-OpenSSH_9.9p1"
+
+  
+},
+{
+  "type": "ssh",
+  "tag": "🇦🇹Austria",
+  "server": "141.98.214.100",
+  "server_port": 22,
+  "user": "telegram_iranramona",
+  "password": "BBB23A5D-44F1-2AF1-83A0-B65222D16BCA",
+  "client_version": "SSH-2.0-OpenSSH_9.9p1"
+
+  
+},
+{
+  "type": "ssh",
+  "tag": "🇮🇹Italy2",
+  "server": "146.70.182.182",
+  "server_port": 22,
+  "user": "telegram_iranramona",
+  "password": "BBB23A5D-44F1-2AF1-83A0-B65222D16BCA",
+  "client_version": "SSH-2.0-OpenSSH_9.9p1"
+
+  
+},
+{
+  "type": "ssh",
+  "tag": "🇸🇰Slovakia",
+  "server": "91.196.68.37",
+  "server_port": 22,
+  "user": "telegram_iranramona",
+  "password": "BBB23A5D-44F1-2AF1-83A0-B65222D16BCA",
+  "client_version": "SSH-2.0-OpenSSH_9.9p1"
+
+  
+},
+{
+  "type": "ssh",
+  "tag": "🇸🇰Slovakia2",
+  "server": "91.196.68.41",
+  "server_port": 22,
+  "user": "telegram_iranramona",
+  "password": "BBB23A5D-44F1-2AF1-83A0-B65222D16BCA",
+  "client_version": "SSH-2.0-OpenSSH_9.9p1"
+
+  
+},
+{
+  "type": "ssh",
+  "tag": "🇨🇭Switzerland",
+  "server": "146.70.135.22",
+  "server_port": 22,
+  "user": "telegram_iranramona",
+  "password": "BBB23A5D-44F1-2AF1-83A0-B65222D16BCA",
+  "client_version": "SSH-2.0-OpenSSH_9.9p1"
+
+  
+},
+{
+  "type": "ssh",
+  "tag": "🇨🇭Switzerland2",
+  "server": "152.89.162.166",
+  "server_port": 22,
+  "user": "telegram_iranramona",
+  "password": "BBB23A5D-44F1-2AF1-83A0-B65222D16BCA",
+  "client_version": "SSH-2.0-OpenSSH_9.9p1"
+
+  
+},
+{
+  "type": "ssh",
+  "tag": "🇺🇸US(Phoenix)",
+  "server": "217.148.140.234",
+  "server_port": 2122,
+  "user": "telegram_iranramona",
+  "password": "BBB23A5D-44F1-2AF1-83A0-B65222D16BCA",
+  "client_version": "SSH-2.0-OpenSSH_9.9p1"
+
+  
+},
+{
+  "type": "ssh",
+  "tag": "🇺🇸US(Phoenix2)",
+  "server": "217.148.140.236",
+  "server_port": 2122,
+  "user": "telegram_iranramona",
+  "password": "BBB23A5D-44F1-2AF1-83A0-B65222D16BCA",
+  "client_version": "SSH-2.0-OpenSSH_9.9p1"
+
+  
+},
+{
+  "type": "ssh",
+  "tag": "🇺🇸US(Phoenix3)",
+  "server": "217.148.140.237",
+  "server_port": 2122,
+  "user": "telegram_iranramona",
+  "password": "BBB23A5D-44F1-2AF1-83A0-B65222D16BCA",
+  "client_version": "SSH-2.0-OpenSSH_9.9p1"
+
+  
+},
+{
+  "type": "ssh",
+  "tag": "🇸🇬Singapore",
+  "server": "146.70.192.202",
+  "server_port": 22,
+  "user": "telegram_iranramona",
+  "password": "BBB23A5D-44F1-2AF1-83A0-B65222D16BCA",
+  "client_version": "SSH-2.0-OpenSSH_9.9p1"
+
+  
+},
+{
+  "type": "ssh",
+  "tag": "🇸🇬Singapore2",
+  "server": "146.70.192.204",
+  "server_port": 22,
+  "user": "telegram_iranramona",
+  "password": "BBB23A5D-44F1-2AF1-83A0-B65222D16BCA",
+  "client_version": "SSH-2.0-OpenSSH_9.9p1"
+
+  
+},
+{
+  "type": "ssh",
+  "tag": "🇸🇬Singapore3",
+  "server": "146.70.192.205",
+  "server_port": 22,
+  "user": "telegram_iranramona",
+  "password": "BBB23A5D-44F1-2AF1-83A0-B65222D16BCA",
+  "client_version": "SSH-2.0-OpenSSH_9.9p1"
+
+  
+},
+{
+  "type": "ssh",
+  "tag": "🇧🇪Belgium2",
+  "server": "185.210.217.186",
+  "server_port": 22,
+  "user": "telegram_iranramona",
+  "password": "BBB23A5D-44F1-2AF1-83A0-B65222D16BCA",
+  "client_version": "SSH-2.0-OpenSSH_9.9p1"
+
+  
+},
+{
+  "type": "ssh",
+  "tag": "🇧🇪Belgium3",
+  "server": "185.210.217.188",
+  "server_port": 22,
+  "user": "telegram_iranramona",
+  "password": "BBB23A5D-44F1-2AF1-83A0-B65222D16BCA",
+  "client_version": "SSH-2.0-OpenSSH_9.9p1"
+
+  
+},
+{
+  "type": "ssh",
+  "tag": "🇧🇪Belgium4",
+  "server": "185.210.217.189",
+  "server_port": 22,
+  "user": "telegram_iranramona",
+  "password": "BBB23A5D-44F1-2AF1-83A0-B65222D16BCA",
+  "client_version": "SSH-2.0-OpenSSH_9.9p1"
+
+  
+}
+  ],
+  "route": {
+    "rules": [
+      {
+        "action": "sniff",
+        "inbound": "tun-in"
+      },
+      {
+        "action": "hijack-dns",
+        "protocol": "dns"
+      },
+      {
+        "action": "reject",
+        "protocol": "quic"
+      },
+      {
+        "action": "reject",
+        "rule_set": [
+          "Category-Ads"
+        ]
+      }
+    ],
+    "rule_set": [
+      {
+        "tag": "Category-Ads",
+        "type": "remote",
+        "url": "https://raw.githubusercontent.com/itsyebekhe/meta-rules-dat-sing/main/geo/geosite/category-ads-all.srs",
+        "format": "binary"
+      },
+      {
+        "tag": "GeoIP-Private",
+        "type": "remote",
+        "url": "https://raw.githubusercontent.com/itsyebekhe/meta-rules-dat-sing/main/geo/geoip/private.srs",
+        "format": "binary"
+      },
+      {
+        "tag": "GeoSite-Private",
+        "type": "remote",
+        "url": "https://raw.githubusercontent.com/itsyebekhe/meta-rules-dat-sing/main/geo/geosite/private.srs",
+        "format": "binary"
+      },
+      {
+        "tag": "GeoIP-IR",
+        "type": "remote",
+        "url": "https://raw.githubusercontent.com/itsyebekhe/meta-rules-dat-sing/main/geo/geoip/ir.srs",
+        "format": "binary"
+      },
+      {
+        "tag": "GeoSite-IR",
+        "type": "remote",
+        "url": "https://raw.githubusercontent.com/itsyebekhe/meta-rules-dat-sing/main/geo/geosite/category-ir.srs",
+        "format": "binary"
+      }
+    ],
+    "auto_detect_interface": true,
+    "final": "🎈 خودکار",
+    "default_domain_resolver": {
+      "server": "Local-DNS"
+    }
+  },
+  "dns": {
+    "servers": [
+      {
+        "tag": "Local-DNS",
+        "type": "https",
+        "domain_resolver": "Local-DNS-Resolver",
+        "server_port": 443,
+        "server": "94.140.14.140",
+        "path": "/dns-query"
+      },
+      {
+        "tag": "Local-DNS-Resolver",
+        "type": "udp",
+        "server_port": 53,
+        "server": "94.140.14.140"
+      },
+      {
+        "tag": "Remote-DNS",
+        "type": "tls",
+        "detour": "🚀 انتخاب کنید",
+        "domain_resolver": "Remote-DNS-Resolver",
+        "server_port": 853,
+        "server": "8.8.8.8"
+      },
+      {
+        "tag": "Remote-DNS-Resolver",
+        "type": "udp",
+        "detour": "🚀 انتخاب کنید",
+        "server_port": 53,
+        "server": "8.8.8.8"
+      }
+    ],
+    "rules": [
+      {
+        "action": "route",
+        "clash_mode": "direct",
+        "server": "Local-DNS"
+      },
+      {
+        "action": "route",
+        "clash_mode": "global",
+        "server": "Remote-DNS"
+      },
+      {
+        "action": "route",
+        "rule_set": [
+          "GeoSite-IR"
+        ],
+        "server": "Local-DNS"
+      }
+    ],
+    "disable_cache": false,
+    "disable_expire": false,
+    "independent_cache": false,
+    "final": "Remote-DNS"
+  }
+}
