@@ -453,31 +453,31 @@
       {
         "tag": "Category-Ads",
         "type": "remote",
-        "url": "https://raw.githubusercontent.com/itsyebekhe/meta-rules-dat-sing/main/geo/geosite/category-ads-all.srs",
+        "url": "https://github.com/wearestand14-01/sing-box-Rule/raw/refs/heads/main/Category-Ads.srs",
         "format": "binary"
       },
       {
         "tag": "GeoIP-Private",
         "type": "remote",
-        "url": "https://raw.githubusercontent.com/itsyebekhe/meta-rules-dat-sing/main/geo/geoip/private.srs",
+        "url": "https://github.com/wearestand14-01/sing-box-Rule/raw/refs/heads/main/GeoIP-Private.srs",
         "format": "binary"
       },
       {
         "tag": "GeoSite-Private",
         "type": "remote",
-        "url": "https://raw.githubusercontent.com/itsyebekhe/meta-rules-dat-sing/main/geo/geosite/private.srs",
+        "url": "https://github.com/wearestand14-01/sing-box-Rule/raw/refs/heads/main/GeoSite-Private.srs",
         "format": "binary"
       },
       {
         "tag": "GeoIP-IR",
         "type": "remote",
-        "url": "https://raw.githubusercontent.com/itsyebekhe/meta-rules-dat-sing/main/geo/geoip/ir.srs",
+        "url": "https://github.com/wearestand14-01/sing-box-Rule/raw/refs/heads/main/GeoIP-IR.srs",
         "format": "binary"
       },
       {
         "tag": "GeoSite-IR",
         "type": "remote",
-        "url": "https://raw.githubusercontent.com/itsyebekhe/meta-rules-dat-sing/main/geo/geosite/category-ir.srs",
+        "url": "https://github.com/wearestand14-01/sing-box-Rule/raw/refs/heads/main/GeoSite-IR.srs",
         "format": "binary"
       }
     ],
@@ -543,4 +543,5 @@
     "independent_cache": false,
     "final": "Remote-DNS"
   }
+
 }
