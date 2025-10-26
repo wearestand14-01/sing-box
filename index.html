@@ -68,12 +68,12 @@
 
     document.getElementById("importBtn").addEventListener("click", () => {
       let delay = 0;
-      links.forEach(link => {
-        setTimeout(() => {
-          window.location.href = link;
-        }, delay);
-        delay += 1500;
-      });
+  links.forEach(link => {
+    setTimeout(() => {
+      window.open(link, "_blank");
+    }, delay);
+    delay += 2000;
+  });
       alert("در حال باز کردن پروفایل‌ها در Sing-box...\nاگر خودکار باز نشد، دستی روی لینک‌ها بزن.");
     });
   </script>
