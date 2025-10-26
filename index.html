@@ -6,32 +6,39 @@
   <title>IranRamona - Sing-box Profiles</title>
   <style>
     body {
-      font-family: sans-serif;
+      font-family: "Vazirmatn", sans-serif;
       text-align: center;
-      background: radial-gradient(circle at center, #1a001f, #0d0d0d);
-      color: #e0e0e0;
-      padding: 40px;
+      background: radial-gradient(circle at center, #1a001f, #0a0a0a);
+      color: #eaeaea;
+      padding: 40px 20px;
+      direction: rtl;
+    }
+    h2 {
+      color: #c29bff;
+      text-shadow: 0 0 10px #8a2be2;
     }
     button {
       background: linear-gradient(135deg, #8a2be2, #6a0dad);
       color: white;
       font-size: 18px;
       border: none;
-      border-radius: 10px;
-      padding: 12px 30px;
+      border-radius: 12px;
+      padding: 14px 40px;
       cursor: pointer;
-      transition: all 0.3s ease;
+      transition: 0.3s;
+      box-shadow: 0 0 10px #6a0dad;
     }
     button:hover {
       transform: scale(1.05);
-      background: linear-gradient(135deg, #9c3ff1, #7b1fd0);
+      box-shadow: 0 0 20px #9c3ff1;
     }
     ul {
       list-style: none;
       padding: 0;
+      margin-top: 30px;
     }
     li {
-      margin: 10px 0;
+      margin: 12px 0;
     }
     a {
       color: #b085ff;
@@ -40,41 +47,42 @@
     }
     a:hover {
       text-decoration: underline;
+      color: #d2b4ff;
     }
   </style>
 </head>
 <body>
-  <h2>⚡ IranRamona Sing-box Profiles ⚡</h2>
-  <p>برای افزودن همه کانفیگ‌ها به Sing-box، دکمه زیر را بزن:</p>
+  <h2>⚡️ IranRamona Sing-box Profiles ⚡️</h2>
+  <p>برای افزودن همه کانفیگ‌ها به Sing-box، روی دکمه زیر بزن:</p>
   <button id="importBtn">افزودن همه پروفایل‌ها</button>
 
-  <h3>یا یکی از موارد زیر را انتخاب کن:</h3>
+  <h3 style="margin-top:30px;">یا یکی از موارد زیر را انتخاب کن:</h3>
   <ul>
-    <li><a href="sing-box://import-remote-profile?url=https://raw.githubusercontent.com/wearestand14-01/sing-box/refs/heads/main/cdn-wearestand.json#IranRamona کانال تلگرام">IranRamona کانال تلگرام</a></li>
-    <li><a href="sing-box://import-remote-profile?url=https://raw.githubusercontent.com/wearestand14-01/sing-box/refs/heads/main/javidnaman.json#wearestand کانال تلگرام">wearestand کانال تلگرام</a></li>
-    <li><a href="sing-box://import-remote-profile?url=https://raw.githubusercontent.com/wearestand14-01/sing-box/refs/heads/main/ssh-iranramona.json#ssh-iranramona کانال تلگرام">ssh-iranramona کانال تلگرام</a></li>
-    <li><a href="sing-box://import-remote-profile?url=https://raw.githubusercontent.com/wearestand14-01/sing-box/refs/heads/main/ssh-wearestand.json#ssh-wearestand کانال تلگرام">ssh-wearestand کانال تلگرام</a></li>
-    <li><a href="sing-box://import-remote-profile?url=https://raw.githubusercontent.com/wearestand14-01/sing-box/refs/heads/main/IranRamona%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85-%D9%87%D9%85%D8%B1%D8%A7%D9%87-%D8%A7%DB%8C%D8%B1%D8%A7%D9%86%D8%B3%D9%84.json#IranRamonaکانال تلگرام-همراه-ایرانسل">IranRamonaکانال تلگرام-همراه-ایرانسل</a></li>
+    <li><a href="sing-box://import-remote-profile?url=https%3A%2F%2Fraw.githubusercontent.com%2Fwearestand14-01%2Fsing-box%2Frefs%2Fheads%2Fmain%2Fcdn-wearestand.json#IranRamona">IranRamona کانال تلگرام</a></li>
+    <li><a href="sing-box://import-remote-profile?url=https%3A%2F%2Fraw.githubusercontent.com%2Fwearestand14-01%2Fsing-box%2Frefs%2Fheads%2Fmain%2Fjavidnaman.json#wearestand">wearestand کانال تلگرام</a></li>
+    <li><a href="sing-box://import-remote-profile?url=https%3A%2F%2Fraw.githubusercontent.com%2Fwearestand14-01%2Fsing-box%2Frefs%2Fheads%2Fmain%2Fssh-iranramona.json#ssh-iranramona">ssh-iranramona</a></li>
+    <li><a href="sing-box://import-remote-profile?url=https%3A%2F%2Fraw.githubusercontent.com%2Fwearestand14-01%2Fsing-box%2Frefs%2Fheads%2Fmain%2Fssh-wearestand.json#ssh-wearestand">ssh-wearestand</a></li>
+    <li><a href="sing-box://import-remote-profile?url=https%3A%2F%2Fraw.githubusercontent.com%2Fwearestand14-01%2Fsing-box%2Frefs%2Fheads%2Fmain%2FIranRamona%25DA%25A9%25D8%25A7%25D9%2586%25D8%25A7%25D9%2584%2520%25D8%25AA%25D9%2584%25DA%25AF%25D8%25B1%25D8%25A7%25D9%2585-%25D9%2587%25D9%2585%25D8%25B1%25D8%25A7%25D9%2587-%25D8%25A7%25DB%258C%25D8%25B1%25D8%25A7%25D9%2586%25D8%25B3%25D9%2584.json#IranRamona-Hamrah">IranRamona همراه ایرانسل</a></li>
   </ul>
 
   <script>
     const links = [
-      "sing-box://import-remote-profile?url=https://raw.githubusercontent.com/wearestand14-01/sing-box/refs/heads/main/cdn-wearestand.json#IranRamona کانال تلگرام",
-      "sing-box://import-remote-profile?url=https://raw.githubusercontent.com/wearestand14-01/sing-box/refs/heads/main/javidnaman.json#wearestand کانال تلگرام",
-      "sing-box://import-remote-profile?url=https://raw.githubusercontent.com/wearestand14-01/sing-box/refs/heads/main/ssh-iranramona.json#ssh-iranramona کانال تلگرام",
-      "sing-box://import-remote-profile?url=https://raw.githubusercontent.com/wearestand14-01/sing-box/refs/heads/main/ssh-wearestand.json#ssh-wearestand کانال تلگرام",
-      "sing-box://import-remote-profile?url=https://raw.githubusercontent.com/wearestand14-01/sing-box/refs/heads/main/IranRamona%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85-%D9%87%D9%85%D8%B1%D8%A7%D9%87-%D8%A7%DB%8C%D8%B1%D8%A7%D9%86%D8%B3%D9%84.json#IranRamonaکانال تلگرام-همراه-ایرانسل"
+      "sing-box://import-remote-profile?url=https://raw.githubusercontent.com/wearestand14-01/sing-box/refs/heads/main/cdn-wearestand.json",
+      "sing-box://import-remote-profile?url=https://raw.githubusercontent.com/wearestand14-01/sing-box/refs/heads/main/javidnaman.json",
+      "sing-box://import-remote-profile?url=https://raw.githubusercontent.com/wearestand14-01/sing-box/refs/heads/main/ssh-iranramona.json",
+      "sing-box://import-remote-profile?url=https://raw.githubusercontent.com/wearestand14-01/sing-box/refs/heads/main/ssh-wearestand.json",
+      "sing-box://import-remote-profile?url=https://raw.githubusercontent.com/wearestand14-01/sing-box/refs/heads/main/IranRamona%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85-%D9%87%D9%85%D8%B1%D8%A7%D9%87-%D8%A7%DB%8C%D8%B1%D8%A7%D9%86%D8%B3%D9%84.json"
     ];
 
     document.getElementById("importBtn").addEventListener("click", () => {
       let delay = 0;
-  links.forEach(link => {
-    setTimeout(() => {
-      window.open(link, "_blank");
-    }, delay);
-    delay += 2000;
-  });
-      alert("در حال باز کردن پروفایل‌ها در Sing-box...\nاگر خودکار باز نشد، دستی روی لینک‌ها بزن.");
+      links.forEach(link => {
+        setTimeout(() => {
+          window.open(link, "_blank");
+        }, delay);
+        delay += 1500;
+      });
+      alert("در حال باز کردن پروفایل‌ها در Sing-box...\nاگر خودکار باز نشد، روی لینک‌ها دستی بزن 🌸");
     });
   </script>
 </body>
