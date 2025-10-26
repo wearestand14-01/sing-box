@@ -1,10 +1,79 @@
 <!DOCTYPE html>
-<html>
+<html lang="fa">
 <head>
-  <meta http-equiv="refresh" content="0; url=sing-box://import-remote-profile?url=https://raw.githubusercontent.com/wearestand14-01/sing-box/refs/heads/main/ssh.json#IranRamona ssh کانال تلگرام" />
-  <title>Redirecting...</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IranRamona - Sing-box Profiles</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      text-align: center;
+      background: radial-gradient(circle at center, #1a001f, #0d0d0d);
+      color: #e0e0e0;
+      padding: 40px;
+    }
+    button {
+      background: linear-gradient(135deg, #8a2be2, #6a0dad);
+      color: white;
+      font-size: 18px;
+      border: none;
+      border-radius: 10px;
+      padding: 12px 30px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+    button:hover {
+      transform: scale(1.05);
+      background: linear-gradient(135deg, #9c3ff1, #7b1fd0);
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    li {
+      margin: 10px 0;
+    }
+    a {
+      color: #b085ff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
 <body>
-  <p>اگر اتوماتیک سینگ باکس را باز نکرد لینک آبی رنگ را لمس کنید با تشکر <a href="sing-box://import-remote-profile?url=https://raw.githubusercontent.com/wearestand14-01/sing-box/refs/heads/main/ssh.json#IranRamona ssh">click here</a>.</p>
+  <h2>⚡ IranRamona Sing-box Profiles ⚡</h2>
+  <p>برای افزودن همه کانفیگ‌ها به Sing-box، دکمه زیر را بزن:</p>
+  <button id="importBtn">افزودن همه پروفایل‌ها</button>
+
+  <h3>یا یکی از موارد زیر را انتخاب کن:</h3>
+  <ul>
+    <li><a href="sing-box://import-remote-profile?url=https://raw.githubusercontent.com/wearestand14-01/sing-box/refs/heads/main/cdn-wearestand.json#IranRamona کانال تلگرام">IranRamona کانال تلگرام</a></li>
+    <li><a href="sing-box://import-remote-profile?url=https://raw.githubusercontent.com/wearestand14-01/sing-box/refs/heads/main/javidnaman.json#wearestand کانال تلگرام">wearestand کانال تلگرام</a></li>
+    <li><a href="sing-box://import-remote-profile?url=https://raw.githubusercontent.com/wearestand14-01/sing-box/refs/heads/main/ssh-iranramona.json#ssh-iranramona کانال تلگرام">ssh-iranramona کانال تلگرام</a></li>
+    <li><a href="sing-box://import-remote-profile?url=https://raw.githubusercontent.com/wearestand14-01/sing-box/refs/heads/main/ssh-wearestand.json#ssh-wearestand کانال تلگرام">ssh-wearestand کانال تلگرام</a></li>
+  </ul>
+
+  <script>
+    const links = [
+      "sing-box://import-remote-profile?url=https://raw.githubusercontent.com/wearestand14-01/sing-box/refs/heads/main/cdn-wearestand.json#IranRamona کانال تلگرام",
+      "sing-box://import-remote-profile?url=https://raw.githubusercontent.com/wearestand14-01/sing-box/refs/heads/main/javidnaman.json#wearestand کانال تلگرام",
+      "sing-box://import-remote-profile?url=https://raw.githubusercontent.com/wearestand14-01/sing-box/refs/heads/main/ssh-iranramona.json#ssh-iranramona کانال تلگرام",
+      "sing-box://import-remote-profile?url=https://raw.githubusercontent.com/wearestand14-01/sing-box/refs/heads/main/ssh-wearestand.json#ssh-wearestand کانال تلگرام"
+    ];
+
+    document.getElementById("importBtn").addEventListener("click", () => {
+      let delay = 0;
+      links.forEach(link => {
+        setTimeout(() => {
+          window.location.href = link;
+        }, delay);
+        delay += 1500;
+      });
+      alert("در حال باز کردن پروفایل‌ها در Sing-box...\nاگر خودکار باز نشد، دستی روی لینک‌ها بزن.");
+    });
+  </script>
 </body>
 </html>
